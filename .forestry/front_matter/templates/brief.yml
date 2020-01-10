@@ -43,3 +43,5 @@ fields:
     date_format: YYYY
     time_format: 
     display_utc: false
+pages:
+- content/brief/2019-2020/in-the-wild.md
