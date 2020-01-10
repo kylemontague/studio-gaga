@@ -14,5 +14,4 @@ user_groups = ["Faculty", "External Speaker", "External Reviewer", "Student"]
 show_interests = true
 show_social = false
 [design.background]
-
 +++

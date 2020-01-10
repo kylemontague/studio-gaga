@@ -7,11 +7,11 @@ name = "Lesley McIntyre"
 role = "Studio Lead"
 social = []
 superuser = true
+weight = 20
 user_groups = ["Faculty"]
 [education]
 courses = []
 [[organizations]]
 name = "Northumbria University"
 url = "https://www.northumbria.ac.uk/"
-
 +++
