@@ -66,3 +66,16 @@ fields:
 - type: list
   name: user_groups
   label: user_groups
+  config:
+    use_select: true
+    source:
+      type: simple
+      section: home
+      file: content/authors/admin/_index.md
+    options:
+    - Alumni
+    - Student
+    - Faculty
+    - External Speaker
+    - External Reviewer
+    min: '1'
