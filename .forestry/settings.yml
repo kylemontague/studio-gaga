@@ -28,6 +28,8 @@ sections:
   label: Projects
   create: all
   match: "**/*"
+  templates:
+  - project
 - type: directory
   path: content
   label: Pages
