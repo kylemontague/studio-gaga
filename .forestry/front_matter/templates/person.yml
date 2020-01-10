@@ -81,3 +81,4 @@ fields:
     min: '1'
 pages:
 - content/authors/_index.md
+- content/authors/file.md
