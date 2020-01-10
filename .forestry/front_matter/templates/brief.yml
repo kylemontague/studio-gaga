@@ -19,11 +19,11 @@ fields:
 - name: authors
   type: list
   config:
-    use_select: true
+    use_select: false
     min: 
     max: 
     source:
-      type: pages
+      type: simple
       section: people
   label: authors
 - name: description
