@@ -1,4 +1,45 @@
 ---
 label: Brief
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: true
+    date_format: ''
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Description
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: year
+  type: datetime
+  label: Year
+  description: ''
+  config:
+    required: false
+    date_format: YYYY
+    time_format: 
+    display_utc: false
