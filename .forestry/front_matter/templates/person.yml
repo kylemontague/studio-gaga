@@ -79,5 +79,3 @@ fields:
     - External Speaker
     - External Reviewer
     min: '1'
-pages:
-- content/authors/_index.md

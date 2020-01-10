@@ -1,7 +1,6 @@
 +++
 authors = ["lesley-mcintyre"]
 bio = "tba"
-draft = true
 email = "lesley.mcintyre@northumbria.ac.uk"
 interests = ["Experience-Centred Architecture"]
 name = "Lesley McIntyre"
