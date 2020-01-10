@@ -79,3 +79,5 @@ fields:
     - External Speaker
     - External Reviewer
     min: '1'
+pages:
+- content/authors/stephen-roberts/_index.md
