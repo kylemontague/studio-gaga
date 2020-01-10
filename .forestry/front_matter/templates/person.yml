@@ -13,12 +13,21 @@ fields:
     required: true
   label: username
   description: should be firstname-lastname
+- name: role
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: people
+      file: content/authors/admin/_index.md
+      path: user_groups
+  label: role
 - type: boolean
   name: superuser
   label: superuser
-- type: text
-  name: role
-  label: role
 - type: field_group_list
   name: organizations
   label: organizations
