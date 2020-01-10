@@ -11,7 +11,7 @@ css_style = ""
 [content]
 user_groups = ["Faculty", "External Speaker", "External Reviewer", "Student"]
 [design]
-show_interests = true
+show_interests = false
 show_social = false
 [design.background]
 +++
