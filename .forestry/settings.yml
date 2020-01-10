@@ -24,10 +24,12 @@ sections:
   templates:
   - blog-post
 - type: directory
-  path: content/project
+  path: content/projects
   label: Projects
   create: all
   match: "**/*"
+  templates:
+  - project
 - type: directory
   path: content
   label: Pages
