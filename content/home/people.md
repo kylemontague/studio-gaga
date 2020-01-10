@@ -2,7 +2,7 @@
 active = false
 headless = true
 subtitle = ""
-title = "Meet the Team"
+title = "Meet the Studio"
 weight = 68
 widget = "people"
 [advanced]
