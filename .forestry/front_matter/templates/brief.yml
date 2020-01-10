@@ -7,33 +7,6 @@ fields:
   config:
     required: true
   label: Title
-- name: date
-  type: datetime
-  label: date
-  description: ''
-  config:
-    required: true
-    date_format: ''
-    time_format: 
-    display_utc: false
-    export_format: YYYY-MM-DD
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Description
-- name: images
-  type: image_gallery
-  config: {}
-  label: Images
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
 - name: year
   type: datetime
   label: Year
@@ -52,6 +25,35 @@ fields:
     source:
       type: pages
       section: people
-  label: Authors
+  label: authors
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Description
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: true
+    date_format: ''
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
+  default: now
+  hidden: true
 pages:
 - content/brief/2019-2020/in-the-wild.md
