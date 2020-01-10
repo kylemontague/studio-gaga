@@ -4,10 +4,15 @@ hide_body: false
 fields:
 - type: text
   name: name
-  label: name
-- type: list
-  name: authors
-  label: authors
+  label: fullname
+  config:
+    required: true
+- name: authors
+  type: text
+  config:
+    required: true
+  label: username
+  description: should be firstname-lastname
 - type: boolean
   name: superuser
   label: superuser
