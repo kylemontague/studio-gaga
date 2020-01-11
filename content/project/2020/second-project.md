@@ -13,6 +13,7 @@ image:
   focal_point: Smart
   preview_only: false
   src: "/img/photo1.jpeg"
+  image: "/img/photo1.jpeg"
 url_code: ''
 url_pdf: ''
 url_slides: ''
