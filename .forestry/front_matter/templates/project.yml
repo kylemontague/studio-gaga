@@ -27,7 +27,7 @@ fields:
   name: image
   label: image
   fields:
-  - name: src
+  - name: image
     type: file
     config:
       maxSize: 250
@@ -36,12 +36,31 @@ fields:
   - type: text
     name: caption
     label: caption
-  - type: text
-    name: focal_point
-    label: focal_point
   - type: boolean
     name: preview_only
     label: preview_only
+  - name: focal_point
+    type: select
+    default: Smart
+    config:
+      required: true
+      options:
+      - Smart
+      - Center
+      - TopLeft
+      - Top
+      - TopRight
+      - Left
+      - Right
+      - BottomLeft
+      - Bottom
+      - BottomRight
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: focal point
 - type: text
   name: url_code
   label: url_code
