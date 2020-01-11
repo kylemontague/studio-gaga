@@ -27,7 +27,7 @@ fields:
   name: image
   label: image
   fields:
-  - name: path
+  - name: src
     type: file
     config:
       maxSize: 250
