@@ -27,6 +27,12 @@ fields:
   name: image
   label: image
   fields:
+  - name: path
+    type: file
+    config:
+      maxSize: 250
+    label: file
+    description: upload a JPG/PNG/BMP image to be shown in the  project
   - type: text
     name: caption
     label: caption
