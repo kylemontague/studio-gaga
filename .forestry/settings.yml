@@ -5,28 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: data
-  label: Data
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/brief
-  label: Briefs
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/authors
-  label: People
-  create: all
-  match: "**/*"
-  templates:
-  - person
-- type: directory
-  path: content/home
-  label: Home
-  create: all
-  match: "**/*"
-- type: directory
   path: content/post
   label: Blog posts
   create: all
@@ -41,10 +19,27 @@ sections:
   templates:
   - project
 - type: directory
+  path: content/authors
+  label: People
+  create: all
+  match: "**/*"
+  templates:
+  - person
+- type: directory
   path: content
   label: Pages
   create: all
   match: "*"
+- type: directory
+  path: content/brief
+  label: Briefs
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/home
+  label: Home
+  create: all
+  match: "**/*"
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
